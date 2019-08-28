@@ -25,14 +25,13 @@ requirements:
     - sysv_ipc  # [unix]
     - zeromq
   run:
-    - cerberus
     - cmake
     - czmq
     - jsonschema
     - matplotlib
     - numpy
     - pandas
-    - perf
+    - pyperf
     - pint  # [py2k]
     - psutil
     - pystache
@@ -40,6 +39,11 @@ requirements:
     - python-rapidjson  # [not py2k]
     - pyyaml
     - pyzmq
+    - r-base
+    - r-bit64
+    - r-r6
+    - r-reticulate
+    - r-zeallot
     - scipy
     - six
     - sysv_ipc  # [unix]
