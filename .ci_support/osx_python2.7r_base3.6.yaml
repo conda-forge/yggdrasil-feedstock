@@ -20,9 +20,14 @@ pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
+  r-base:
+    min_pin: x.x
+    max_pin: x.x
   zeromq:
     max_pin: x.x
 python:
-- '3.7'
+- '2.7'
+r_base:
+- '3.6'
 zeromq:
 - 4.3.2
