@@ -72,6 +72,8 @@ requirements:
 test:
   imports:
     - yggdrasil
+  commands:
+    - yggrun -h
 
 about:
   home: https://github.com/cropsinsilico/yggdrasil

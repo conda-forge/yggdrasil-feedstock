@@ -1,0 +1,13 @@
+diff --git a/recipe/meta.yaml b/recipe/meta.yaml
+index 3302e9a..54c1012 100644
+--- a/recipe/meta.yaml
++++ b/recipe/meta.yaml
+@@ -72,6 +72,8 @@ requirements:
+ test:
+   imports:
+     - yggdrasil
++  commands:
++    - yggrun -h
+ 
+ about:
+   home: https://github.com/cropsinsilico/yggdrasil
