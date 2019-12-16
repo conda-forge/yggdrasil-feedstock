@@ -34,9 +34,6 @@ build:
     - ygginstall = yggdrasil.command_line:ygginstall
 
 requirements:
-  build:
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
   host:
     - czmq
     - pip
@@ -46,6 +43,8 @@ requirements:
   run:
     - cmake
     - czmq
+    - flaky
+    - GitPython
     - jsonschema
     - matplotlib
     - numpy
@@ -62,12 +61,15 @@ requirements:
     - r-bit64
     - r-r6
     - r-reticulate
+    - r-units
     - r-zeallot
     - scipy
     - six
     - sysv_ipc  # [unix]
     - unyt  # [not py2k]
     - zeromq
+    - {{ compiler('c') }}  # [win]
+    - {{ compiler('cxx') }}  # [win]
 
 test:
   imports:
