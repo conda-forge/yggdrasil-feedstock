@@ -10,7 +10,7 @@ source:
   sha256: 89cfc40cfa1f8636fe334ea4706594b09b380770d898e8943d00d777f61d23b2
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
   skip: true  # [win and vc<14]
   entry_points:
@@ -46,7 +46,7 @@ requirements:
     - flaky
     - GitPython
     - jsonschema
-    - matplotlib
+    - matplotlib-base
     - numpy
     - pandas
     - pyperf
