@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
-  skip: true  # [win and vc<14]
+  skip: true  # [(win and vc<14) or py<35]
   entry_points:
     - ygginfo = yggdrasil.command_line:ygginfo
     - yggrun = yggdrasil.command_line:yggrun
@@ -37,7 +37,7 @@ requirements:
   host:
     - czmq
     - pip
-    - python 3.*
+    - python
     - sysv_ipc  # [unix]
     - zeromq
   run:
@@ -53,7 +53,7 @@ requirements:
     - pint  # [py2k]
     - psutil
     - pystache
-    - python 3.*
+    - python
     - python-rapidjson  # [not py2k]
     - pyyaml
     - pyzmq
