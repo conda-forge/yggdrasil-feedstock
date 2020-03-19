@@ -37,7 +37,7 @@ requirements:
   host:
     - czmq
     - pip
-    - python
+    - python >= 3.5
     - sysv_ipc  # [unix]
     - zeromq
   run:
@@ -53,7 +53,7 @@ requirements:
     - pint  # [py2k]
     - psutil
     - pystache
-    - python
+    - python >= 3.5
     - python-rapidjson  # [not py2k]
     - pyyaml
     - pyzmq
