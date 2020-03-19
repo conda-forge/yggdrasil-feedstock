@@ -10,28 +10,28 @@ jobs:
   strategy:
     maxParallel: 4
     matrix:
-      win_c_compilervs2015cxx_compilervs2015python3.6.____cpythonr_base3.5.1vc14:
-        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.6.____cpythonr_base3.5.1vc14
+      win_python3.6.____cpythonr_base3.5.1:
+        CONFIG: win_python3.6.____cpythonr_base3.5.1
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_c_compilervs2015cxx_compilervs2015python3.6.____cpythonr_base3.6vc14:
-        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.6.____cpythonr_base3.6vc14
+      win_python3.6.____cpythonr_base3.6:
+        CONFIG: win_python3.6.____cpythonr_base3.6
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_c_compilervs2015cxx_compilervs2015python3.7.____cpythonr_base3.5.1vc14:
-        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.7.____cpythonr_base3.5.1vc14
+      win_python3.7.____cpythonr_base3.5.1:
+        CONFIG: win_python3.7.____cpythonr_base3.5.1
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_c_compilervs2015cxx_compilervs2015python3.7.____cpythonr_base3.6vc14:
-        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.7.____cpythonr_base3.6vc14
+      win_python3.7.____cpythonr_base3.6:
+        CONFIG: win_python3.7.____cpythonr_base3.6
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_c_compilervs2015cxx_compilervs2015python3.8.____cpythonr_base3.5.1vc14:
-        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.8.____cpythonr_base3.5.1vc14
+      win_python3.8.____cpythonr_base3.5.1:
+        CONFIG: win_python3.8.____cpythonr_base3.5.1
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_c_compilervs2015cxx_compilervs2015python3.8.____cpythonr_base3.6vc14:
-        CONFIG: win_c_compilervs2015cxx_compilervs2015python3.8.____cpythonr_base3.6vc14
+      win_python3.8.____cpythonr_base3.6:
+        CONFIG: win_python3.8.____cpythonr_base3.6
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
   steps:
