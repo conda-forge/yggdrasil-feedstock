@@ -18,15 +18,10 @@ pin_run_as_build:
   zeromq:
     max_pin: x.x.x
 python:
-- '3.6'
+- 3.6.* *_cpython
 r_base:
 - '3.6'
 vc:
 - '14'
 zeromq:
 - 4.3.2
-zip_keys:
-- - python
-  - vc
-  - c_compiler
-  - cxx_compiler
