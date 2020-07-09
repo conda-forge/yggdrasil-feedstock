@@ -1,5 +1,5 @@
 {% set name = "yggdrasil" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
-  sha256: b687c0018e1ae8ae7291e71b5d0881f88e99257487ec91e9a5b835a0df4d581a
+  sha256: 78aedac67b4ce8a0447ce9b511f14420bd26be4095c7328554b42223e7683027
 
 build:
   number: 0

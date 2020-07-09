@@ -5,7 +5,7 @@ Home: https://github.com/cropsinsilico/yggdrasil
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A framework for connecting computational models from multiple languages.
 
