@@ -16,9 +16,11 @@ pin_run_as_build:
   zeromq:
     max_pin: x.x.x
 python:
-- 3.6.* *_cpython
+- 3.7.* *_cpython
 r_base:
-- 3.5.1
+- '4.0'
+target_platform:
+- win-64
 vc:
 - '14'
 zeromq:
