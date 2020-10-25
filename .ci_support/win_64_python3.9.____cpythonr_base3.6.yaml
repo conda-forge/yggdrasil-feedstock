@@ -1,9 +1,11 @@
+c_compiler:
+- vs2017
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
-docker_image:
-- condaforge/linux-anvil-comp7
+cxx_compiler:
+- vs2017
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -12,10 +14,14 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
   zeromq:
-    max_pin: x.x
+    max_pin: x.x.x
 python:
-- 3.7.* *_cpython
+- 3.9.* *_cpython
 r_base:
 - '3.6'
+target_platform:
+- win-64
+vc:
+- '14'
 zeromq:
 - 4.3.2

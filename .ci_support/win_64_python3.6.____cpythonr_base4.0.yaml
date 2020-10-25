@@ -18,7 +18,9 @@ pin_run_as_build:
 python:
 - 3.6.* *_cpython
 r_base:
-- '3.6'
+- '4.0'
+target_platform:
+- win-64
 vc:
 - '14'
 zeromq:
