@@ -5,9 +5,13 @@ Home: https://github.com/cropsinsilico/yggdrasil
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yggdrasil-feedstock/blob/master/LICENSE.txt)
 
 Summary: A framework for connecting computational models from multiple languages.
+
+Development: https://github.com/cropsinsilico/yggdrasil
+
+Documentation: https://cropsinsilico.github.io/yggdrasil
 
 The Crops in Silico (CiS) framework, yggdrasil, provides support for
 connecting scientific models written in different programming languages.
@@ -38,141 +42,177 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_python3.6.____cpythonr_base3.5.1</td>
+              <td>linux_64_python3.6.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.6.____cpythonr_base3.6</td>
+              <td>linux_64_python3.6.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.7.____cpythonr_base3.5.1</td>
+              <td>linux_64_python3.7.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.7.____cpythonr_base3.6</td>
+              <td>linux_64_python3.7.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.8.____cpythonr_base3.5.1</td>
+              <td>linux_64_python3.8.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.8.____cpythonr_base3.6</td>
+              <td>linux_64_python3.8.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____cpythonr_base3.5.1</td>
+              <td>linux_64_python3.9.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____cpythonr_base3.6</td>
+              <td>linux_64_python3.9.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.7.____cpythonr_base3.5.1</td>
+              <td>osx_64_python3.6.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.7.____cpythonr_base3.6</td>
+              <td>osx_64_python3.6.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.8.____cpythonr_base3.5.1</td>
+              <td>osx_64_python3.7.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.8.____cpythonr_base3.6</td>
+              <td>osx_64_python3.7.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.6.____cpythonr_base3.5.1</td>
+              <td>osx_64_python3.8.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_python3.6.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.6.____cpythonr_base3.6</td>
+              <td>osx_64_python3.8.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_python3.6.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.7.____cpythonr_base3.5.1</td>
+              <td>osx_64_python3.9.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_python3.7.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.7.____cpythonr_base3.6</td>
+              <td>osx_64_python3.9.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_python3.7.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.8.____cpythonr_base3.5.1</td>
+              <td>win_64_python3.6.____cpythonr_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_python3.8.____cpythonr_base3.5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpythonr_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.8.____cpythonr_base3.6</td>
+              <td>win_64_python3.6.____cpythonr_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_python3.8.____cpythonr_base3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpythonr_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.7.____cpythonr_base3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonr_base3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.7.____cpythonr_base4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonr_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8.____cpythonr_base3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonr_base3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8.____cpythonr_base4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonr_base4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9.____cpythonr_base3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpythonr_base3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9.____cpythonr_base4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpythonr_base4.0" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
