@@ -60,7 +60,7 @@ requirements:
     - GitPython
     - jsonschema
     - matplotlib-base
-    - numpy>=1.13.0
+    - numpy >=1.13.0
     - pandas
     - pyperf
     - pint  # [py2k]
