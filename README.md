@@ -17,7 +17,7 @@ The Crops in Silico (CiS) framework, yggdrasil, provides support for
 connecting scientific models written in different programming languages.
 To connect two models, modelers add communications interfaces to the model code
 and provide declarative specification files that identfy the
-models that should be run and the inputs and outputs those models
+models that should be run and the inputs and outputs that those models
 expect. yggdrasil uses this information to launch the models
 on parallel processes and orchestrate asynchronous communication between them.
 Although designed for connecting crop models, yggdrasil can be used to
@@ -301,9 +301,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
