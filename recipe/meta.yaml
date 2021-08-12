@@ -1,5 +1,5 @@
 {% set name = "yggdrasil" %}
-{% set version = "1.6.3" %}
+{% set version = "1.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
-  sha256: 945a319129f062e8d4a4a31ee826f53809d45a6c0a3cb9a303b2aa44c6f617c7
+  sha256: ace91037ec94237c1820cf9b805dca2685158a33663c76079d69b22ba36c4a26
 
 build:
   number: 0
@@ -116,4 +116,4 @@ extra:
   recipe-maintainers:
     - langmm
     - conda-forge/r
-    
+
