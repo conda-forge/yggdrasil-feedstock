@@ -17,7 +17,7 @@ The Crops in Silico (CiS) framework, yggdrasil, provides support for
 connecting scientific models written in different programming languages.
 To connect two models, modelers add communications interfaces to the model code
 and provide declarative specification files that identfy the
-models that should be run and the inputs and outputs that those models
+models that should be run and the inputs and outputs those models
 expect. yggdrasil uses this information to launch the models
 on parallel processes and orchestrate asynchronous communication between them.
 Although designed for connecting crop models, yggdrasil can be used to

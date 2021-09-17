@@ -10,7 +10,7 @@ source:
   sha256: 8a6a216b77eda2768bbc8f4f152c1d4d89bf57a3bb081eec298ad709b8d54ffa
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
   skip: true  # [(win and vc<14) or py<35]
   entry_points:
@@ -57,8 +57,10 @@ requirements:
     - cmake  # [not win]
     - czmq
     - flaky
+    - flask
     - git
-    - GitPython
+    - GitPython <=3.1.20  # [py==36]
+    - GitPython  # [py>36]
     - jsonschema
     - matplotlib-base
     - numpy >=1.13.0
@@ -76,6 +78,7 @@ requirements:
     - r-reticulate
     - r-units
     - r-zeallot
+    - requests
     - scipy
     - six
     - sysv_ipc  # [unix]
@@ -104,7 +107,7 @@ about:
     connecting scientific models written in different programming languages.
     To connect two models, modelers add communications interfaces to the model code
     and provide declarative specification files that identfy the
-    models that should be run and the inputs and outputs that those models
+    models that should be run and the inputs and outputs those models
     expect. yggdrasil uses this information to launch the models
     on parallel processes and orchestrate asynchronous communication between them.
     Although designed for connecting crop models, yggdrasil can be used to
