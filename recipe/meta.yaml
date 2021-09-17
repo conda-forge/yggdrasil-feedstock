@@ -1,5 +1,5 @@
 {% set name = "yggdrasil" %}
-{% set version = "1.8.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
-  sha256: 8a6a216b77eda2768bbc8f4f152c1d4d89bf57a3bb081eec298ad709b8d54ffa
+  sha256: bd78cb62a91dd79e9541e840ade0015012b2c1bf2f510f6568fde1212501925f
 
 build:
   number: 0
@@ -53,7 +53,6 @@ requirements:
     - sysv_ipc  # [unix]
     - zeromq
   run:
-    - chevron
     - cmake  # [not win]
     - czmq
     - flaky
@@ -66,6 +65,7 @@ requirements:
     - pyperf
     - pint  # [py2k]
     - psutil
+    - pystache
     - python
     - python-rapidjson  # [not py2k]
     - pyyaml
