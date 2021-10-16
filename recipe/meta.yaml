@@ -1,5 +1,5 @@
 {% set name = "yggdrasil" %}
-{% set version = "1.8.0" %}
+{% set version = "1.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
-  sha256: 8a6a216b77eda2768bbc8f4f152c1d4d89bf57a3bb081eec298ad709b8d54ffa
+  sha256: 881cce13a25e1f6169e9bd4cf64a990f96dc19e5dfdeacb75aaad514db07faed
 
 build:
-  number: 1
+  number: 0
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
   skip: true  # [(win and vc<14) or py<35]
   entry_points:
@@ -61,7 +61,7 @@ requirements:
     - git
     - GitPython <=3.1.20  # [py==36]
     - GitPython  # [py>36]
-    - jsonschema
+    - jsonschema ==3.2.0
     - matplotlib-base
     - numpy >=1.13.0
     - pandas
