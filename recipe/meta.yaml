@@ -47,7 +47,7 @@ requirements:
   host:
     - czmq
     - pip
-    - python >=3.5.0
+    - python
     - r-base
     - r-bit64
     - r-r6
@@ -72,7 +72,7 @@ requirements:
     - pyperf
     - pint  # [py2k]
     - psutil
-    - python >=3.5.0
+    - python
     - python-rapidjson  # [not py2k]
     - pyyaml
     - pyzmq
