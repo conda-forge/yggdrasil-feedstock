@@ -10,7 +10,7 @@ source:
   sha256: c72a085ed5f30dde221297abb1d156ca1c5b841dd6626a560314f490c3d6fe99
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
   skip: true  # [(win and vc<14) or py<35]
   entry_points:
@@ -24,7 +24,6 @@ build:
     - yggldtool = yggdrasil.command_line:ld_toolname
     - yggccflags = yggdrasil.command_line:cc_flags
     - yggldflags = yggdrasil.command_line:ld_flags
-    - yggtest = yggdrasil.command_line:run_tsts
     - yggmetaschema = yggdrasil.command_line:regen_metaschema
     - yggschema = yggdrasil.command_line:regen_schema
     - yggbuildapi_c = yggdrasil.command_line:rebuild_c_api
