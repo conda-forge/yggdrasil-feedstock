@@ -1,11 +1,11 @@
-c_compiler:
-- vs2017
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-cxx_compiler:
-- vs2017
+macos_machine:
+- x86_64-apple-darwin13.4.0
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -13,15 +13,11 @@ pin_run_as_build:
   r-base:
     min_pin: x.x
     max_pin: x.x
-  zeromq:
-    max_pin: x.x.x
 python:
 - 3.10.* *_cpython
 r_base:
-- '4.0'
+- '4.2'
 target_platform:
-- win-64
-vc:
-- '14'
+- osx-64
 zeromq:
 - 4.3.4

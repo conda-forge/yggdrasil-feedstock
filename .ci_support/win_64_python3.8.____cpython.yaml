@@ -1,11 +1,11 @@
-cdt_name:
-- cos6
+c_compiler:
+- vs2019
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-docker_image:
-- quay.io/condaforge/linux-anvil-cos7-x86_64
+cxx_compiler:
+- vs2019
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -13,13 +13,13 @@ pin_run_as_build:
   r-base:
     min_pin: x.x
     max_pin: x.x
-  zeromq:
-    max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.8.* *_cpython
 r_base:
-- '4.0'
+- '4.1'
 target_platform:
-- linux-64
+- win-64
+vc:
+- '14'
 zeromq:
 - 4.3.4
