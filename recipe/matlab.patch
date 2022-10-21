@@ -1,0 +1,13 @@
+diff --git a/yggdrasil/config.py b/yggdrasil/config.py
+index b8569656c..72ed3a313 100644
+--- a/yggdrasil/config.py
++++ b/yggdrasil/config.py
+@@ -304,7 +304,7 @@ def update_language_config(languages=None, skip_warnings=False,
+     miss = []
+     if (languages is None) or overwrite:
+         all_languages = tools.get_supported_lang()
+-        languages = ['c', 'c++', 'make', 'cmake', 'python', 'lpy', 'r', 'matlab']
++        languages = ['c', 'c++', 'make', 'cmake', 'python', 'lpy', 'r']
+         for lang in all_languages:
+             if lang.lower() not in languages:
+                 languages.append(lang)
