@@ -1,0 +1,38 @@
+diff --git a/yggdrasil/config.py b/yggdrasil/config.py
+index b8569656c..31b51c05a 100644
+--- a/yggdrasil/config.py
++++ b/yggdrasil/config.py
+@@ -341,8 +341,12 @@ def update_language_config(languages=None, skip_warnings=False,
+             ygg_cfg_usr.set(idrv.language, 'disable', 'False')
+         if ygg_cfg_usr.get(idrv.language, 'disable', 'False').lower() == 'true':
+             continue  # pragma: no cover
+-        miss += idrv.configure(ygg_cfg_usr,
+-                               **lang_kwargs.get(idrv.language, {}))
++        try:
++            miss += idrv.configure(ygg_cfg_usr,
++                                   **lang_kwargs.get(idrv.language, {}))
++        except:
++            pass
++
+     ygg_cfg_usr.update_file()
+     ygg_cfg.reload()
+     if not skip_warnings:
+diff --git a/yggdrasil/drivers/CModelDriver.py b/yggdrasil/drivers/CModelDriver.py
+index f2efa677a..5bddd635d 100755
+--- a/yggdrasil/drivers/CModelDriver.py
++++ b/yggdrasil/drivers/CModelDriver.py
+@@ -815,10 +815,10 @@ class CModelDriver(CompiledModelDriver):
+             vcpkg_dir = os.environ.get('VCPKG_ROOT', None)
+         if vcpkg_dir is not None:
+             vcpkg_dir = os.path.abspath(vcpkg_dir)
+-            if not os.path.isdir(vcpkg_dir):  # pragma: debug
+-                raise ValueError("Path to vcpkg root directory "
+-                                 "does not exist: %s." % vcpkg_dir)
+-            cfg.set(cls._language, 'vcpkg_dir', vcpkg_dir)
++            if os.path.isdir(vcpkg_dir):  # pragma: debug
++                cfg.set(cls._language, 'vcpkg_dir', vcpkg_dir)
++            else:
++                vpkg_dir = None
+         if macos_sdkroot is None:
+             macos_sdkroot = _osx_sysroot
+         if macos_sdkroot is not None:
