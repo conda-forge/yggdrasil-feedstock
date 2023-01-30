@@ -61,6 +61,7 @@ requirements:
     - GitPython
     - chevron
     - flask
+    - git
     - jsonschema ==3.2.0
     - matplotlib-base
     - numpy >=1.13.0
@@ -225,7 +226,6 @@ outputs:
         - {{ pin_subpackage('yggdrasil', exact=True) }}
         - PyGithub
         - black
-        - git
         - ipython
   - name: yggdrasil.astropy
     build:
