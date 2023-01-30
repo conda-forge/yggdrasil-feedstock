@@ -42,171 +42,87 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpythonr_base4.1</td>
+              <td>linux_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.10.____cpythonr_base4.2</td>
+              <td>linux_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonr_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythonr_base4.1</td>
+              <td>linux_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythonr_base4.2</td>
+              <td>linux_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonr_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpythonr_base4.1</td>
+              <td>osx_64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpythonr_base4.2</td>
+              <td>osx_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonr_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpythonr_base4.1</td>
+              <td>osx_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpythonr_base4.2</td>
+              <td>osx_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonr_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythonr_base4.1</td>
+              <td>osx_arm64_python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpythonr_base4.2</td>
+              <td>osx_arm64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonr_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythonr_base4.1</td>
+              <td>osx_arm64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonr_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.11.____cpythonr_base4.2</td>
+              <td>osx_arm64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpythonr_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.8.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.8.____cpythonr_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonr_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.9.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.9.____cpythonr_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonr_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.10.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.10.____cpythonr_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpythonr_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.11.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.11.____cpythonr_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.11.____cpythonr_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.8.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.8.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.8.____cpythonr_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.8.____cpythonr_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.9.____cpythonr_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpythonr_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.9.____cpythonr_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6228&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpythonr_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/yggdrasil-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -251,6 +167,18 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil-green.svg)](https://anaconda.org/conda-forge/yggdrasil) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.svg)](https://anaconda.org/conda-forge/yggdrasil) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.svg)](https://anaconda.org/conda-forge/yggdrasil) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.svg)](https://anaconda.org/conda-forge/yggdrasil) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.astropy-green.svg)](https://anaconda.org/conda-forge/yggdrasil.astropy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.astropy.svg)](https://anaconda.org/conda-forge/yggdrasil.astropy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.astropy.svg)](https://anaconda.org/conda-forge/yggdrasil.astropy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.astropy.svg)](https://anaconda.org/conda-forge/yggdrasil.astropy) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.c-green.svg)](https://anaconda.org/conda-forge/yggdrasil.c) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.c.svg)](https://anaconda.org/conda-forge/yggdrasil.c) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.c.svg)](https://anaconda.org/conda-forge/yggdrasil.c) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.c.svg)](https://anaconda.org/conda-forge/yggdrasil.c) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.dev-green.svg)](https://anaconda.org/conda-forge/yggdrasil.dev) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.dev.svg)](https://anaconda.org/conda-forge/yggdrasil.dev) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.dev.svg)](https://anaconda.org/conda-forge/yggdrasil.dev) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.dev.svg)](https://anaconda.org/conda-forge/yggdrasil.dev) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.docs-green.svg)](https://anaconda.org/conda-forge/yggdrasil.docs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.docs.svg)](https://anaconda.org/conda-forge/yggdrasil.docs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.docs.svg)](https://anaconda.org/conda-forge/yggdrasil.docs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.docs.svg)](https://anaconda.org/conda-forge/yggdrasil.docs) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.fortran-green.svg)](https://anaconda.org/conda-forge/yggdrasil.fortran) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.fortran.svg)](https://anaconda.org/conda-forge/yggdrasil.fortran) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.fortran.svg)](https://anaconda.org/conda-forge/yggdrasil.fortran) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.fortran.svg)](https://anaconda.org/conda-forge/yggdrasil.fortran) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.mpi-green.svg)](https://anaconda.org/conda-forge/yggdrasil.mpi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.mpi.svg)](https://anaconda.org/conda-forge/yggdrasil.mpi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.mpi.svg)](https://anaconda.org/conda-forge/yggdrasil.mpi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.mpi.svg)](https://anaconda.org/conda-forge/yggdrasil.mpi) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.pygments-green.svg)](https://anaconda.org/conda-forge/yggdrasil.pygments) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.pygments.svg)](https://anaconda.org/conda-forge/yggdrasil.pygments) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.pygments.svg)](https://anaconda.org/conda-forge/yggdrasil.pygments) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.pygments.svg)](https://anaconda.org/conda-forge/yggdrasil.pygments) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.r-green.svg)](https://anaconda.org/conda-forge/yggdrasil.r) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.r.svg)](https://anaconda.org/conda-forge/yggdrasil.r) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.r.svg)](https://anaconda.org/conda-forge/yggdrasil.r) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.r.svg)](https://anaconda.org/conda-forge/yggdrasil.r) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.rmq-green.svg)](https://anaconda.org/conda-forge/yggdrasil.rmq) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.rmq.svg)](https://anaconda.org/conda-forge/yggdrasil.rmq) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.rmq.svg)](https://anaconda.org/conda-forge/yggdrasil.rmq) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.rmq.svg)](https://anaconda.org/conda-forge/yggdrasil.rmq) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.testing-green.svg)](https://anaconda.org/conda-forge/yggdrasil.testing) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.testing.svg)](https://anaconda.org/conda-forge/yggdrasil.testing) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.testing.svg)](https://anaconda.org/conda-forge/yggdrasil.testing) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.testing.svg)](https://anaconda.org/conda-forge/yggdrasil.testing) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.trimesh-green.svg)](https://anaconda.org/conda-forge/yggdrasil.trimesh) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.trimesh.svg)](https://anaconda.org/conda-forge/yggdrasil.trimesh) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.trimesh.svg)](https://anaconda.org/conda-forge/yggdrasil.trimesh) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.trimesh.svg)](https://anaconda.org/conda-forge/yggdrasil.trimesh) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-yggdrasil.zmq-green.svg)](https://anaconda.org/conda-forge/yggdrasil.zmq) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/yggdrasil.zmq.svg)](https://anaconda.org/conda-forge/yggdrasil.zmq) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/yggdrasil.zmq.svg)](https://anaconda.org/conda-forge/yggdrasil.zmq) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/yggdrasil.zmq.svg)](https://anaconda.org/conda-forge/yggdrasil.zmq) |
 
 Installing yggdrasil
 ====================
@@ -262,16 +190,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `yggdrasil` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `yggdrasil, yggdrasil.astropy, yggdrasil.c, yggdrasil.dev, yggdrasil.docs, yggdrasil.fortran, yggdrasil.mpi, yggdrasil.pygments, yggdrasil.r, yggdrasil.rmq, yggdrasil.testing, yggdrasil.trimesh, yggdrasil.zmq` can be installed with `conda`:
 
 ```
-conda install yggdrasil
+conda install yggdrasil yggdrasil.astropy yggdrasil.c yggdrasil.dev yggdrasil.docs yggdrasil.fortran yggdrasil.mpi yggdrasil.pygments yggdrasil.r yggdrasil.rmq yggdrasil.testing yggdrasil.trimesh yggdrasil.zmq
 ```
 
 or with `mamba`:
 
 ```
-mamba install yggdrasil
+mamba install yggdrasil yggdrasil.astropy yggdrasil.c yggdrasil.dev yggdrasil.docs yggdrasil.fortran yggdrasil.mpi yggdrasil.pygments yggdrasil.r yggdrasil.rmq yggdrasil.testing yggdrasil.trimesh yggdrasil.zmq
 ```
 
 It is possible to list all of the versions of `yggdrasil` available on your platform with `conda`:
