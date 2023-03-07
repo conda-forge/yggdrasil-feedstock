@@ -1,11 +1,11 @@
-About yggdrasil
-===============
+About yggdrasil-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yggdrasil-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cropsinsilico/yggdrasil
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yggdrasil-feedstock/blob/main/LICENSE.txt)
 
 Summary: A framework for connecting computational models from multiple languages.
 
