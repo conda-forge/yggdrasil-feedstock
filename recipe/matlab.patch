@@ -16,13 +16,6 @@ index bf2eb3e26..af0ce0f7d 100644
      ygg_cfg_usr.update_file()
      ygg_cfg.reload()
      if not skip_warnings:
-diff --git a/yggdrasil/demos/fspm2020 b/yggdrasil/demos/fspm2020
-index 0acd22eb2..4abaf302e 160000
---- a/yggdrasil/demos/fspm2020
-+++ b/yggdrasil/demos/fspm2020
-@@ -1 +1 @@
--Subproject commit 0acd22eb2e811f6180c7438829fa8c5260d186bd
-+Subproject commit 4abaf302ef4fd17872ba934e8235c35cbfa61920
 diff --git a/yggdrasil/drivers/CModelDriver.py b/yggdrasil/drivers/CModelDriver.py
 index 5cae0bf96..cdab30076 100755
 --- a/yggdrasil/drivers/CModelDriver.py
@@ -42,10 +35,3 @@ index 5cae0bf96..cdab30076 100755
          if cls._language == 'c':
              if macos_sdkroot is None:
                  macos_sdkroot = cfg.get('c', 'macos_sdkroot', _osx_sysroot)
-diff --git a/yggdrasil/rapidjson b/yggdrasil/rapidjson
-index bfdcf4911..10380a118 160000
---- a/yggdrasil/rapidjson
-+++ b/yggdrasil/rapidjson
-@@ -1 +1 @@
--Subproject commit bfdcf4911047688fec49014d575433e2e5eb05be
-+Subproject commit 10380a118a5619386e7cb4954c4e0353bd009054
