@@ -10,7 +10,7 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
   sha256: a9dca3e08111b9f4acffde7b86faf15925dade79ad21d22f6543352164d5f612
-  patchs:
+  patches:
     - matlab.patch
 
 build:
