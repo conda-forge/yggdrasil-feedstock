@@ -1,5 +1,5 @@
 diff --git a/yggdrasil/config.py b/yggdrasil/config.py
-index bf2eb3e26..af0ce0f7d 100644
+index ed667c576..196bbb4b1 100644
 --- a/yggdrasil/config.py
 +++ b/yggdrasil/config.py
 @@ -341,8 +341,11 @@ def update_language_config(languages=None, skip_warnings=False,
@@ -17,10 +17,10 @@ index bf2eb3e26..af0ce0f7d 100644
      ygg_cfg.reload()
      if not skip_warnings:
 diff --git a/yggdrasil/drivers/CModelDriver.py b/yggdrasil/drivers/CModelDriver.py
-index 5cae0bf96..cdab30076 100755
+index 84afa62e2..5a1826091 100755
 --- a/yggdrasil/drivers/CModelDriver.py
 +++ b/yggdrasil/drivers/CModelDriver.py
-@@ -881,10 +881,10 @@ class CModelDriver(CompiledModelDriver):
+@@ -891,10 +891,10 @@ class CModelDriver(CompiledModelDriver):
              print(f"Setting vcpkg_dir to {vcpkg_dir}"
                    f" ({os.path.abspath(vcpkg_dir)})")
              vcpkg_dir = os.path.abspath(vcpkg_dir)
@@ -32,6 +32,6 @@ index 5cae0bf96..cdab30076 100755
 +                cfg.set(cls._language, 'vcpkg_dir', vcpkg_dir)
 +            else:
 +                vcpkg_dir = None
-         if cls._language == 'c':
+         if cls.language == 'c':
              if macos_sdkroot is None:
                  macos_sdkroot = cfg.get('c', 'macos_sdkroot', _osx_sysroot)
