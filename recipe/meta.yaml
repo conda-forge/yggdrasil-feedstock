@@ -1,5 +1,5 @@
 {% set name = "yggdrasil" %}
-{% set version = "1.10.0" %}
+{% set version = "1.10.1.post1" %}
 {% set PY_VER_MAJOR = PY_VER.split('.')[0] %}
 {% set PY_VER_MINOR = PY_VER.split('.')[1] %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
-  sha256: a9dca3e08111b9f4acffde7b86faf15925dade79ad21d22f6543352164d5f612
+  sha256: ff9151ebcd4f3e73fc3d7fc9ebe9a00e106041f73323293069dd779fc3da6175
   patches:
     - matlab.patch
 
