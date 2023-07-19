@@ -29,6 +29,7 @@ python:
 - 3.8.* *_cpython
 r_base:
 - '4.2'
+- '4.3'
 target_platform:
 - osx-arm64
 zeromq:
