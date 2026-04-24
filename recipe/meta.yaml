@@ -8,13 +8,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}-framework/{{ name }}-framework-{{ version }}.tar.gz
   sha256: ff9151ebcd4f3e73fc3d7fc9ebe9a00e106041f73323293069dd779fc3da6175
   patches:
     - matlab.patch
 
 build:
-  number: 1
+  number: 2
   string: py{{ PY_VER_MAJOR }}{{ PY_VER_MINOR }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   run_exports:
     - {{ pin_subpackage('yggdrasil', max_pin='x.x.x') }}
@@ -52,6 +52,7 @@ requirements:
     - numpy >=1.13.0                         # [build_platform != target_platform]
     - python                                 # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
     - numpy >=1.13.0
