@@ -14,7 +14,7 @@ source:
     - matlab.patch
 
 build:
-  number: 1
+  number: 2
   string: py{{ PY_VER_MAJOR }}{{ PY_VER_MINOR }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
   run_exports:
     - {{ pin_subpackage('yggdrasil', max_pin='x.x.x') }}
@@ -300,7 +300,7 @@ outputs:
         - python
       run:
         - {{ pin_subpackage('yggdrasil', exact=True) }}
-        - astropy
+        - astropy-base
   - name: yggdrasil.pygments
     build:
       string: py{{ PY_VER_MAJOR }}{{ PY_VER_MINOR }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}
